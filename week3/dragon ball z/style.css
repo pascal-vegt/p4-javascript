@@ -1,0 +1,99 @@
+/* @font-face {
+    font-family: "Saiyan Sans Left";
+    src: url("./font/Saiyan-Sans Left Oblique.ttf");
+}
+
+@font-face {
+    font-family: "Saiyan Sans Right";
+    src: url("./font/Saiyan-Sans Right Oblique.ttf");
+}
+
+@font-face {
+    font-family: "Saiyan Sans";
+    src: url("./font/Saiyan-Sans.ttf");
+} */
+
+* {
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.character-container {
+  display: flex;
+  background-color: #bbb;
+  width: 450px;
+  height: 500px;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  margin: 20px;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.character-sheet {
+  display: flex;
+  background-color: #ccc;
+  padding: 10px;
+  border-radius: 25px;
+  height: fit-content;
+  margin: 15px 10px 0px 0px;
+  position: relative;
+  flex-flow: column;
+}
+
+.character-image {
+  width: auto;
+  height: 450px;
+}
+
+.character-name {
+}
+
+.character-race {
+}
+
+.character-ki {
+}
+
+.character-maxki {
+}
+
+.character-gender {
+}
+
+.character-affiliation {
+}
+.character-name::before {
+  content: "Name: ";
+  font-weight: bold;
+}
+
+.character-race::before {
+  content: "Race: ";
+  font-weight: bold;
+}
+
+.character-ki::before {
+  content: "KI: ";
+  font-weight: bold;
+}
+
+.character-maxki::before {
+  content: "Max KI: ";
+  font-weight: bold;
+}
+
+.character-gender::before {
+  content: "Sex: ";
+  font-weight: bold;
+}
+
+.character-affiliation::before {
+  content: "Affiliation: ";
+  font-weight: bold;
+}

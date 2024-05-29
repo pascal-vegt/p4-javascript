@@ -1,0 +1,68 @@
+body {
+    background-color: #f3e6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.birthday-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.birthday-entry {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.birthday-entry img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.details {
+    text-align: left;
+}
+
+.name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.age {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+.clear-btn {
+    background-color: #ff00ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.clear-btn:hover {
+    background-color: #cc00cc;
+}
