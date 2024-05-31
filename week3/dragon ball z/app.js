@@ -1,6 +1,6 @@
 let output = document.querySelector(".output");
 
-fetch(`https://dragonball-api.com/api/characters?limit=58`)
+fetch(`https://dragonball-api.com/api/characters?limit=59`)
   .then((response) => response.json())
   .then((characters) => {
     console.log(characters.items);
