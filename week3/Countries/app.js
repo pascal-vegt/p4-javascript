@@ -9,7 +9,7 @@ fetch(`https://restcountries.com/v3.1/all`)
       output.innerHTML += `
       <section class="country-container">
       <img class="country-image" src="${country.flags.svg}" alt="">
-      <h3>${country.name.official}</h3>
+      <h3 class="country-text">${country.name.official}</h3>
       </section>
       `
     }
