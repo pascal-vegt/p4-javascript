@@ -16,6 +16,14 @@ const person = {
   aliveChange: function () {
     this.alive = !this.alive;
     return this.alive;
+    if (this.alive == true) {
+      this.aliveText = "levend";
+    } else if (this.alive == false) {
+      this.aliveText = "overleden";
+    } else {
+      this.aliveText = "onbekend";
+    }
+    console.log(this.alive);
   },
   changeName: function (name) {},
 };
@@ -41,19 +49,4 @@ if (person.gender === "vrouw" || person.gender === "Vrouw") {
 
 output.innerHTML = `<p> ${person.pronouns} naam is ${person.name}, ${person.direct} is een ${person.age}e oude ${person.gender}, ${person.direct} is geboren op ${person.dateOfBirth} en houdt van ${person.hobbies}.
   (${person.direct} is op dit moment ${person.aliveText})</p>`;
-
-  
-  console.log(person.alive);
-
-  button.addEventListener("click", function () {   
-    person.aliveChange;
-  if (person.alive == true) {
-    person.aliveText = "levend";
-  } else if (person.alive == false) {
-    person.aliveText = "overleden";
-  } else {
-    person.aliveText = "onbekend";
-  }
-  console.log(person.alive);
-});
 
