@@ -1,0 +1,32 @@
+[
+{
+    "name": "Emily Johnson",
+    "age": 24,
+    "img": "./img/1.jpg"
+},
+{
+    "name": "Michael Smith",
+    "age": 31,
+    "img": "./img/2.jpg"
+},
+{
+    "name": "Sophia Martinez",
+    "age": 27,
+    "img": "./img/3.jpg"
+},
+{
+    "name": "David Brown",
+    "age": 45,
+    "img": "./img/4.jpg"
+},
+{
+    "name": "Olivia Garcia",
+    "age": 19,
+    "img": "./img/5.jpg"
+},
+{
+    "name": "James Lee",
+    "age": 52,
+    "img": "./img/6.jpg"
+}
+]
