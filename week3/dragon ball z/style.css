@@ -17,6 +17,13 @@
   font-family: sans-serif;
 }
 
+.output {
+  margin: 20px 125px 0px 125px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom right, #e76a24 45%, black);
+}
+
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -30,9 +37,11 @@
   padding: 15px;
   border-radius: 25px;
   display: flex;
-  margin: 20px;
+  margin: 25px;
   flex-flow: row;
   justify-content: space-between;
+  background-color: #1c4595;
+  box-shadow: 5px 5px 40px inset;
 }
 
 .character-sheet {
@@ -42,13 +51,20 @@
   border-radius: 25px;
   height: fit-content;
   margin: 15px 10px 0px 0px;
-  position: relative;
+  position: absolute;
   flex-flow: column;
+  min-width: 200px;
+  background-color: #fbbc42;
+  box-shadow: 5px 5px 20px;
 }
 
 .character-image {
   width: auto;
   height: 450px;
+  max-width: 280px;
+  position: relative;
+  left: 210px;
+  z-index: 111;
 }
 
 .character-name {
