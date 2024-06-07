@@ -1,0 +1,18 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Avatar - The Last Airbender",
+      "year": "2023",
+      "rating": "10",
+      "img": "avatar.jpeg"
+    },
+    {
+      "id": "c26d",
+      "title": "Yo Mama",
+      "year": "2023",
+      "img": "yo mama.jpeg",
+      "rating": "6"
+    }
+  ]
+}
