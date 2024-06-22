@@ -1,7 +1,7 @@
 {
   "movies": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Avatar - The Last Airbender",
       "year": "2023",
       "rating": "10",
